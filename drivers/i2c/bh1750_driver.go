@@ -1,10 +1,10 @@
 package i2c
 
 import (
-	"time"
 	"errors"
+	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const bh1750Address = 0x23
@@ -44,7 +44,7 @@ func NewBH1750Driver(a Connector, options ...func(Config)) *BH1750Driver {
 		name:      gobot.DefaultName("BH1750"),
 		connector: a,
 		Config:    NewConfig(),
-		mode: BH1750_CONTINUOUS_HIGH_RES_MODE,
+		mode:      BH1750_CONTINUOUS_HIGH_RES_MODE,
 	}
 
 	for _, option := range options {

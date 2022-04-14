@@ -5,9 +5,9 @@
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/chip"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/drivers/gpio"
+	"github.com/robtarr/gobot/platforms/chip"
 )
 
 func main() {

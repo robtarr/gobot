@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*Driver)(nil)

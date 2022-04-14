@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot/gobottest"
 )
 
 func TestCORSIsOriginAllowed(t *testing.T) {

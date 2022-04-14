@@ -1,7 +1,7 @@
 package gpio
 
 import (
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // MotorDriver Represents a Motor

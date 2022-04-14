@@ -1,7 +1,7 @@
 package gpio
 
 import (
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot/gobottest"
 	"strings"
 	"testing"
 	"time"
@@ -183,4 +183,3 @@ func TestEasyDriverDisable(t *testing.T) {
 	gobottest.Assert(t, d.IsEnabled(), false)
 	gobottest.Assert(t, d.IsMoving(), false)
 }
-

@@ -11,7 +11,7 @@ The NATS messaging protocol (http://www.nats.io/documentation/internals/nats-pro
 Install running:
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ## How to Use
@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/nats"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/nats"
 )
 
 func main() {
@@ -68,8 +68,8 @@ import (
 	"time"
 
 	natsio "github.com/nats-io/go-nats"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/nats"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/nats"
 )
 
 func main() {
@@ -116,7 +116,7 @@ func main() {
 
 ## Contributing
 
-For our contribution guidelines, please go to https://gobot.io/x/gobot/blob/master/CONTRIBUTING.md
+For our contribution guidelines, please go to https://github.com/robtarr/gobot/blob/master/CONTRIBUTING.md
 
 ## License
 

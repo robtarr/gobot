@@ -1,7 +1,7 @@
 package i2c
 
 import (
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // DRV2605Mode - operating mode

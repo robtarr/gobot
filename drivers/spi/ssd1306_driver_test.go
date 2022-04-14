@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*SSD1306Driver)(nil)

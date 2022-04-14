@@ -7,8 +7,8 @@ import (
 
 	"bytes"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*BH1750Driver)(nil)
@@ -145,4 +145,3 @@ func TestBH1750DriverRawSensorDataError(t *testing.T) {
 	_, err := d.RawSensorData()
 	gobottest.Assert(t, err, errors.New("wrong number of bytes read"))
 }
-

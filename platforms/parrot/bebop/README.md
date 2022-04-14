@@ -4,7 +4,7 @@ The Parrot Bebop and Parrot Bebop 2 are inexpensive quadcopters that can be cont
 
 ## How to Install
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ## How to Use
@@ -14,8 +14,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/parrot/bebop"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/parrot/bebop"
 )
 
 func main() {

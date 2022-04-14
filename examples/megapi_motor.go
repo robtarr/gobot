@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/megapi"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/megapi"
 )
 
 func main() {

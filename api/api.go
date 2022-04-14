@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/bmizerany/pat"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api/robeaux"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/api/robeaux"
 )
 
 // API represents an API server

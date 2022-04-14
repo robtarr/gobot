@@ -3,7 +3,7 @@ package minidrone
 import (
 	"sync"
 
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/robtarr/gobot/platforms/ble"
 )
 
 var _ ble.BLEConnector = (*bleTestClientAdaptor)(nil)

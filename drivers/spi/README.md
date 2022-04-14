@@ -10,7 +10,7 @@ The SPI implementation uses the awesome [periph.io](https://periph.io/) which cu
 
 ## Installing
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ## Hardware Support

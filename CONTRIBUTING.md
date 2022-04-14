@@ -53,8 +53,8 @@ The basics are as follows:
 
 2. `go get` the upstream repo and set it up as the `upstream` remote and your own repo as the `origin` remote:
 
-`go get gobot.io/x/gobot`
-`cd $GOPATH/src/gobot.io/x/gobot`
+`go get github.com/robtarr/gobot`
+`cd $GOPATH/src/github.com/robtarr/gobot`
 `git remote rename origin upstream`
 `git remote add origin git@github.com/YOUR_GITHUB_NAME/gobot`
 
@@ -64,7 +64,7 @@ proper branch checked out.
 3. Get all the needed gobot's dependencies each of them at their needed version. Gobot uses [dep (Dependency management for Go)](https://golang.github.io/dep/) to manage the project's dependencies. To get all the correct dependencies:
 
 * Install dep tool. Follow the dep [installation](https://golang.github.io/dep/docs/installation.html) instructions in case you don't have it already installed.
-* `cd $GOPATH/src/gobot.io/x/gobot` 
+* `cd $GOPATH/src/github.com/robtarr/gobot` 
 * `dep ensure` will fetch  all the dependencies at their needed version.
 
 ## Landing Pull Requests

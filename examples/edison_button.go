@@ -5,9 +5,9 @@
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/intel-iot/edison"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/drivers/gpio"
+	"github.com/robtarr/gobot/platforms/intel-iot/edison"
 )
 
 func main() {

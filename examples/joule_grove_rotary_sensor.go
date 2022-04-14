@@ -7,10 +7,10 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/intel-iot/joule"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/drivers/aio"
+	"github.com/robtarr/gobot/drivers/i2c"
+	"github.com/robtarr/gobot/platforms/intel-iot/joule"
 )
 
 func main() {

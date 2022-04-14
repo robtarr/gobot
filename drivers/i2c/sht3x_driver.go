@@ -25,8 +25,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/robtarr/gobot"
 	"github.com/sigurn/crc8"
-	"gobot.io/x/gobot"
 )
 
 // SHT3xAddressA is the default address of device

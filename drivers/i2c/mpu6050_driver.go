@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const mpu6050Address = 0x68

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // MCP3304DriverMaxChannel is the number of channels of this A/D converter.

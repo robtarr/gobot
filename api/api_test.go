@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/gobottest"
 )
 
 func initTestAPI() *API {

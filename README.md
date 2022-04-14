@@ -1,6 +1,6 @@
 [![Gobot](https://raw.githubusercontent.com/hybridgroup/gobot-site/master/source/images/elements/gobot-logo-small.png)](http://gobot.io/)
 
-[![GoDoc](https://godoc.org/gobot.io/x/gobot?status.svg)](https://godoc.org/gobot.io/x/gobot)
+[![GoDoc](https://godoc.org/github.com/robtarr/gobot?status.svg)](https://godoc.org/github.com/robtarr/gobot)
 [![CircleCI Build status](https://circleci.com/gh/hybridgroup/gobot/tree/dev.svg?style=svg)](https://circleci.com/gh/hybridgroup/gobot/tree/dev)
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/ix29evnbdrhkr7ud/branch/dev?svg=true)](https://ci.appveyor.com/project/deadprogram/gobot/branch/dev)
 [![codecov](https://codecov.io/gh/hybridgroup/gobot/branch/dev/graph/badge.svg)](https://codecov.io/gh/hybridgroup/gobot)
@@ -15,7 +15,7 @@ Want to run Go directly on microcontrollers? Check out our sister project TinyGo
 
 ## Getting Started
 
-Get the Gobot package by running this command: `go get -d -u gobot.io/x/gobot`
+Get the Gobot package by running this command: `go get -d -u github.com/robtarr/gobot`
 
 ## Examples
 
@@ -27,9 +27,9 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/firmata"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/drivers/gpio"
+	"github.com/robtarr/gobot/platforms/firmata"
 )
 
 func main() {
@@ -61,8 +61,8 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/sphero"
 )
 
 func main() {
@@ -93,8 +93,8 @@ You can use the entire Gobot framework as shown in the examples above ("Classic"
 package main
 
 import (
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/intel-iot/edison"
+	"github.com/robtarr/gobot/drivers/gpio"
+	"github.com/robtarr/gobot/platforms/intel-iot/edison"
 	"time"
 )
 
@@ -123,9 +123,9 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/api"
+	"github.com/robtarr/gobot/platforms/sphero"
 )
 
 func NewSwarmBot(port string) *gobot.Robot {
@@ -310,7 +310,7 @@ More platforms and drivers are coming soon...
 
 Gobot includes a RESTful API to query the status of any robot running within a group, including the connection and device status, and execute device commands.
 
-To activate the API, import the `gobot.io/x/gobot/api` package and instantiate the `API` like this:
+To activate the API, import the `github.com/robtarr/gobot/api` package and instantiate the `API` like this:
 
 ```go
   master := gobot.NewMaster()

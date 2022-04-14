@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const (

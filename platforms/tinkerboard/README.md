@@ -11,7 +11,7 @@ We recommend updating to the latest Debian TinkerOS when using the Tinker Board.
 You would normally install Go and Gobot on your workstation. Once installed, cross compile your program on your workstation, transfer the final executable to your Tinker Board, and run the program on the Tinker Board as documented here.
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ### Enabling GPIO pins

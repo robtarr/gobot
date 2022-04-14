@@ -1,6 +1,6 @@
 package ollie
 
-import "gobot.io/x/gobot/platforms/sphero"
+import "github.com/robtarr/gobot/platforms/sphero"
 
 // DefaultCollisionConfig returns a CollisionConfig with sensible collision defaults
 func DefaultCollisionConfig() sphero.CollisionConfig {

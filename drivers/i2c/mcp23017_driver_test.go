@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*MCP23017Driver)(nil)

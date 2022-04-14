@@ -2,4 +2,4 @@
 // Currently only has support for the DJI Tello.
 // For more information, go to:
 //
-package dji // import "gobot.io/x/gobot/platforms/dji"
+package dji // import "github.com/robtarr/gobot/platforms/dji"

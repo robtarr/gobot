@@ -1,7 +1,7 @@
 package opencv
 
 import (
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 	"gocv.io/x/gocv"
 )
 

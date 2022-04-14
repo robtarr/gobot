@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dexter/gopigo3"
-	"gobot.io/x/gobot/platforms/raspi"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/dexter/gopigo3"
+	"github.com/robtarr/gobot/platforms/raspi"
 )
 
 func main() {

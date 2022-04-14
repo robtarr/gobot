@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/neurosky"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/neurosky"
 )
 
 func main() {

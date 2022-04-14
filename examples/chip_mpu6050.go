@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/chip"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/drivers/i2c"
+	"github.com/robtarr/gobot/platforms/chip"
 )
 
 func main() {

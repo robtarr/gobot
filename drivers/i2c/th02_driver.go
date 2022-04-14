@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const (

@@ -7,7 +7,7 @@ For more information on this drone, go to: [https://www.ryzerobotics.com/tello](
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ## How to Use
@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/dji/tello"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/dji/tello"
 )
 
 func main() {

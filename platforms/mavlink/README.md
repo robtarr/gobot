@@ -17,7 +17,7 @@ configured to send version 1.0 frames.
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 
 ```
 
@@ -29,9 +29,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/mavlink"
-	common "gobot.io/x/gobot/platforms/mavlink/common"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/mavlink"
+	common "github.com/robtarr/gobot/platforms/mavlink/common"
 )
 
 func main() {

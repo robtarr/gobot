@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/sysfs"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/drivers/i2c"
+	"github.com/robtarr/gobotrr/gobot/sysfs"
 )
 
 type mux struct {

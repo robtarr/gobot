@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const l3gd20hAddress = 0x6B

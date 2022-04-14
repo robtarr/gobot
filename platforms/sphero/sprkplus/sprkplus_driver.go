@@ -1,9 +1,9 @@
 package sprkplus
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/sphero/ollie"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/platforms/ble"
+	"github.com/robtarr/gobotrr/gobot/platforms/sphero/ollie"
 )
 
 // Driver represents a Sphero SPRK+

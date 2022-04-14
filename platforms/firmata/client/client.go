@@ -1,6 +1,6 @@
 // Package client provies a client for interacting with microcontrollers
 // using the Firmata protocol https://github.com/firmata/protocol.
-package client // import "gobot.io/x/gobot/platforms/firmata/client"
+package client // import "github.com/robtarr/gobot/platforms/firmata/client"
 
 import (
 	"errors"
@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobotrr/gobot"
 )
 
 // Pin Modes

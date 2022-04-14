@@ -14,7 +14,7 @@ This package also includes drivers for several well-known BLE Services:
 
 ## How to Install
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ### OSX
@@ -66,8 +66,8 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/ble"
 )
 
 func main() {

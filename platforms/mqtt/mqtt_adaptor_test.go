@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
 )
 
 var _ gobot.Adaptor = (*Adaptor)(nil)

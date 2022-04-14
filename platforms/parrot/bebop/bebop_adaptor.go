@@ -1,8 +1,8 @@
 package bebop
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/parrot/bebop/client"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/platforms/parrot/bebop/client"
 )
 
 // drone defines expected drone behaviour

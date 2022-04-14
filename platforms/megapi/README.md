@@ -7,7 +7,7 @@ The code is based on a python implementation that can be found [here](https://gi
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ## How to Use
@@ -16,8 +16,8 @@ go get -d -u gobot.io/x/gobot/...
 package main
 
 import (
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/megapi"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/megapi"
 	"time"
 )
 

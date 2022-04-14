@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const grovePiAddress = 0x04
@@ -257,7 +257,7 @@ func (d *GrovePiDriver) readUltrasonic(pin byte, duration int) (val int, err err
 		return 0, err
 	}
 
-	return int(data[1]) * 255 + int(data[2]), err
+	return int(data[1])*255 + int(data[2]), err
 }
 
 // readDigital reads digitally from the GrovePi.

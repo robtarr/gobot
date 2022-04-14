@@ -24,7 +24,7 @@ type bmeHumidityCalibrationCoefficients struct {
 // It implements all of the same functions as the BMP280Driver, but also
 // adds the Humidity() function by reading the BME280's humidity sensor.
 // For details on the BMP280Driver please see:
-// 	https://godoc.org/gobot.io/x/gobot/drivers/i2c#BMP280Driver
+// 	https://godoc.org/github.com/robtarr/gobot/drivers/i2c#BMP280Driver
 //
 type BME280Driver struct {
 	*BMP280Driver

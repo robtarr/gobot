@@ -13,7 +13,7 @@ We recommend updating to the latest Raspian Jessie OS when using the Raspberry P
 You would normally install Go and Gobot on your workstation. Once installed, cross compile your program on your workstation, transfer the final executable to your Raspberry Pi, and run the program on the Raspberry Pi as documented here.
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/robtarr/gobot/...
 ```
 
 ## How to Use
@@ -26,9 +26,9 @@ package main
 import (
         "time"
 
-        "gobot.io/x/gobot"
-        "gobot.io/x/gobot/drivers/gpio"
-        "gobot.io/x/gobot/platforms/raspi"
+        "github.com/robtarr/gobot"
+        "github.com/robtarr/gobot/drivers/gpio"
+        "github.com/robtarr/gobot/platforms/raspi"
 )
 
 func main() {

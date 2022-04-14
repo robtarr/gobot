@@ -8,7 +8,7 @@ package i2c
 // This module was tested with SwitchDoc Labs INA3221 breakout board found at http://www.switchdoc.com/
 
 import (
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // INA3221Channel type that defines which INA3221 channel to read from.

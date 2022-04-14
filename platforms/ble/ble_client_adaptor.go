@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 
 	"tinygo.org/x/bluetooth"
 )

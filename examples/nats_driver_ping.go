@@ -15,8 +15,8 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/nats"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/nats"
 )
 
 func main() {

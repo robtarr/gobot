@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/nats-io/nats.go"
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // Adaptor is a configuration struct for interacting with a NATS server.

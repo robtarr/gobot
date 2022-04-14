@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"log"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // DeviceInformationDriver represents the Device Information Service for a BLE Peripheral

@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/platforms/pebble"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/api"
+	"github.com/robtarr/gobot/platforms/pebble"
 )
 
 func main() {

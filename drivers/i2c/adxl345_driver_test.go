@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*ADXL345Driver)(nil)
@@ -115,7 +115,6 @@ func TestADXL345DriverXYZError(t *testing.T) {
 	_, _, _, err := d.XYZ()
 	gobottest.Assert(t, err, errors.New("read error"))
 }
-
 
 func TestADXL345DriverRawXYZ(t *testing.T) {
 	d, adaptor := initTestADXL345DriverWithStubbedAdaptor()

@@ -3,7 +3,7 @@ package minidrone
 import (
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot/gobottest"
 )
 
 func TestMinidroneValidatePitchWhenEqualOffset(t *testing.T) {

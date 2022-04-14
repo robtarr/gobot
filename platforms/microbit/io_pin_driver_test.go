@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/drivers/aio"
+	"github.com/robtarr/gobotrr/gobot/drivers/gpio"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
 )
 
 // the IOPinDriver is a Driver

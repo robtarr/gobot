@@ -4,7 +4,7 @@ import (
 	"image/color"
 	"math"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // APA102Driver is a driver for the APA102 programmable RGB LEDs.

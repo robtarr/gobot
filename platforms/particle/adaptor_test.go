@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/donovanhide/eventsource"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
 )
 
 // HELPERS

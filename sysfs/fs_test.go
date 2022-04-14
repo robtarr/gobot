@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/robtarr/gobot/gobottest"
 )
 
 func TestFilesystemOpen(t *testing.T) {

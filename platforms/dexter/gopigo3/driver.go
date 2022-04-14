@@ -11,8 +11,8 @@ import (
 	"math"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/spi"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/drivers/spi"
 )
 
 // spi address for gopigo3

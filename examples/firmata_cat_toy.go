@@ -16,10 +16,10 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/firmata"
-	"gobot.io/x/gobot/platforms/leap"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/drivers/gpio"
+	"github.com/robtarr/gobot/platforms/firmata"
+	"github.com/robtarr/gobot/platforms/leap"
 )
 
 func main() {

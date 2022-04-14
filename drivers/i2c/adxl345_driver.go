@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 
 	"github.com/pkg/errors"
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 const ADXL345AddressLow = 0x53

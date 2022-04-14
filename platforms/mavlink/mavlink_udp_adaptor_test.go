@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
-	mavlink "gobot.io/x/gobot/platforms/mavlink/common"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobotrr/gobot/gobottest"
+	mavlink "github.com/robtarr/gobotrr/gobot/platforms/mavlink/common"
 )
 
 var _ gobot.Adaptor = (*UDPAdaptor)(nil)

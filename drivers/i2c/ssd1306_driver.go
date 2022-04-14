@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"image"
 
-	"gobot.io/x/gobot"
+	"github.com/robtarr/gobot"
 )
 
 // register addresses for the ssd1306

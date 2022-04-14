@@ -18,8 +18,8 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
+	"github.com/robtarr/gobot"
+	"github.com/robtarr/gobot/platforms/ble"
 )
 
 func main() {

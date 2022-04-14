@@ -6,7 +6,7 @@ Installing:
 It requires the 2.x iOS or Android app, and "watchbot" app (https://gobot.io/x/watchbot)
 installed on Pebble watch. Then install running:
 
-	go get gobot.io/x/gobot/platforms/pebble
+	go get github.com/robtarr/gobot/platforms/pebble
 
 Example:
 
@@ -17,9 +17,9 @@ Before running the example, make sure configuration settings match with your pro
 	import (
 		"fmt"
 
-		"gobot.io/x/gobot"
-		"gobot.io/x/gobot/api"
-		"gobot.io/x/gobot/platforms/pebble"
+		"github.com/robtarr/gobotrr/gobot"
+		"github.com/robtarr/gobotrr/gobot/api"
+		"github.com/robtarr/gobotrr/gobot/platforms/pebble"
 	)
 
 	func main() {
@@ -54,4 +54,4 @@ Before running the example, make sure configuration settings match with your pro
 For more information refer to the pebble README:
 https://github.com/hybridgroup/gobot/blob/master/platforms/pebble/README.md
 */
-package pebble // import "gobot.io/x/gobot/platforms/pebble"
+package pebble // import "github.com/robtarr/gobotrr/gobot/platforms/pebble"
